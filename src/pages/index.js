@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import QuestionBank from './src/components/QuestionBank';
-import SimulationCanvas from './src/components/SimulationCanvas';
-import questionData from './src/data/questions.json';
+import QuestionBank from '../components/QuestionBank';
+import SimulationCanvas from '../components/SimulationCanvas';
+import questionData from '../data/questions.json';
 
 export default function Home() {
   const [questions, setQuestions] = useState([]);
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <span className="text-[11px] font-mono bg-slate-900 border border-slate-800 px-2.5 py-1 rounded-lg text-slate-400">
-              STABLE_BUILD_v1.0.5
+              STABLE_BUILD_v1.0.6
             </span>
           </div>
         </div>
