@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <span className="text-[11px] font-mono bg-slate-900 border border-slate-800 px-2.5 py-1 rounded-lg text-slate-400">
-              STABLE_BUILD_v1.0.6
+              STABLE_BUILD_v1.0.7
             </span>
           </div>
         </div>
